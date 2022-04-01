@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+
+    <div class="container my-5 jus">
+        <div class="text-center">
+           <h2>Student Form</h2>
+        </div>
+        <form action="" class="bg-light w-50 m-auto ">
+            <div class="form-floating mb-3">
+                <label for="name" class="form-label form- ">Name</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-floating mb-3">
+                <label for="" class="form-label">Email</label>
+                <input type="email" class="form-control">
+             </div>
+             <div class="form-floating mb-3">
+                 <label for="phone" class="form-label">Phone</label>
+                 <input type="number" class="form-control">
+             </div>
+
+             <!-- radio  -->
+
+             <div class="form-check-inline">
+                <label for="male" class="form-label">Male</label>
+                <input type="radio" class="">
+            </div>
+            <div class="form-check-inline">
+                <label for="female" class="form-label">FeMale</label>
+                <input type="radio" class="">
+            </div>
+
+            <!-- check box -->
+            <div class="mt-2">
+                <div class="form-check-inline">
+                    <label for="php" class="form-label">PHP</label>
+                    <input type="checkbox" class="">
+                </div>
+                <div class="form-check-inline">
+                    <label for="js" class="form-label">JS</label>
+                    <input type="checkbox" class="">
+                </div>
+                <div class="form-check-inline">
+                    <label for="java" class="form-label">Java</label>
+                    <input type="checkbox" class="">
+                </div>
+                <div class="form-check-inline">
+                    <label for="Python" class="form-label">Python</label>
+                    <input type="checkbox" class="">
+                </div>
+            </div>
+
+            <!-- dropedown  -->
+
+
+            <div class="mb-3">
+                <label for="dep">Department</label>
+                <select name="dep" id="dep" class="form-select-inline">
+                <option value="">--select--</option>
+                <option value="science">Science</option>
+                <option value="Commarce">Commarce</option>
+                <option value="science">Science</option>
+                </select>
+                
+            </div>
+
+            <button class="btn btn-primary w-100">Submit</button>
+
+
+
+         
+            
+        </form>
+    </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
